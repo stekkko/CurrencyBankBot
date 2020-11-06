@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.stekkko.telegrambot.currency'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'org.jsoup:jsoup:1.13.1'
+    implementation 'org.telegram:telegrambots:5.0.0'
+}
