@@ -58,7 +58,7 @@ public class TextMessageParser {
                 String word = words[i];
 
                 if (word.matches("\\d{2}(-|\\/)\\d{2}(-|\\/)\\d{4}")) {
-                    return CetroBank.getCourse(word);
+                    return CentroBank.getCourse(word);
                 }
 
                 if(city.isEmpty()) city = getCity(word);
