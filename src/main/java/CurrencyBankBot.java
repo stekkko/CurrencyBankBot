@@ -39,9 +39,9 @@ public class CurrencyBankBot extends TelegramLongPollingBot {
 
             DefaultBotOptions botOptions = new DefaultBotOptions();
 
-            botOptions.setProxyHost(PROXY_HOST);
-            botOptions.setProxyPort(PROXY_PORT);
-            botOptions.setProxyType(DefaultBotOptions.ProxyType.SOCKS5);
+//            botOptions.setProxyHost(PROXY_HOST);
+//            botOptions.setProxyPort(PROXY_PORT);
+//            botOptions.setProxyType(DefaultBotOptions.ProxyType.SOCKS5);
 
             botsApi.registerBot(new CurrencyBankBot(botOptions));
         } catch (TelegramApiException e) {
