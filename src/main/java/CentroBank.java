@@ -8,7 +8,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class CetroBank {
+public class CentroBank {
     private static final String url = "http://www.cbr.ru/scripts/XML_daily.asp?date_req=";
 
     public static String getCourse(String date) throws IOException, ParseException {
